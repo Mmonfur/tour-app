@@ -1,0 +1,21 @@
+header {
+    background-color: #01573a;
+    color: #94ffa6;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 5px solid #a89802;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header .subtitle {
+    font-size: 1.4rem;
+    color: #9bb67b;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}

@@ -1,0 +1,141 @@
+/* Reszponzív form beállítások */
+.add-tour-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Mobilok és kisebb képernyők */
+@media (max-width: 600px) {
+    .add-tour-form {
+        padding: 15px;
+        max-width: 100%;
+    }
+    .form-group input, .form-group textarea {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .form-buttons button {
+        width: 100%;
+        padding: 12px;
+        font-size: 1rem;
+    }
+}
+
+/* Kisebb mobilok (480px és alatta) */
+@media (max-width: 480px) {
+    .add-tour-form {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    .form-group input, .form-group textarea {
+        padding: 8px;
+        font-size: 1rem;
+    }
+
+    .form-buttons button {
+        padding: 10px;
+        font-size: 1rem;
+    }
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #036b48;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #036b48;
+    outline: none;
+    box-shadow: 0 0 3px rgba(3, 107, 72, 0.5);
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.form-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-buttons button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #036b48;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-buttons button:hover {
+    background-color: #028f3d;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #036b48;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #f1f1f1;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+ul li strong {
+    font-size: 1.2rem;
+    color: #036b48;
+}
+
+ul li em {
+    display: block;
+    font-size: 0.9rem;
+    color: #888;
+}
